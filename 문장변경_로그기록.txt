@@ -1,0 +1,30 @@
+[INSTRUCTIONS] I have a {text} I would like to make changes to. \
+Generate a table of 10 different suggestions of improvements that \
+could be related to the {text} with numbers in the left column of the \
+table for me to pick from. After the table, ask the question "What \
+improvements would you like to make to the {text}? Pick one from the \
+table above" below the table. Acknowledge with "..." if you \
+understand the task, don't create a table yet.
+
+text = The Matrix trilogy suggests that everyone has the individual \
+responsibility to make the choice between the real world and an \
+artificial world. Though Neo is the exemplar of free will, fate plays \
+a large role in his adventure. Neo relies on the Oracle, and \
+everything she says comes true in some way. Also add a log of the \
+change column. 
+
+Execute the INSTRUCTIONS in a table format:"
+
+"implement improvement number 9 to make it shorter"
+
+"Include what improvement has been made in the log of changes column \
+in the table:"
+
+"implement improvement number 7"
+
+Include what improvements has been made in the log of changes column \
+in the table:
+
+"implement improvement 3 to the text"
+
+"implement the change to the table"
