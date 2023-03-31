@@ -1,0 +1,11 @@
+"https://quillbot.com/" -> "Paraphraser" -- AI 유사도 우회
+
+"https://www.aicheatcheck.com/"  -- AI 유사도 검사 [ 가장 엄격]
+
+"https://contentatscale.ai/ai-content-detector/"
+
+"https://writer.com/ai-content-detector/"
+
+"https://sapling.ai/ai-content-detector"
+
+"https://platform.openai.com/ai-text-classifier"
