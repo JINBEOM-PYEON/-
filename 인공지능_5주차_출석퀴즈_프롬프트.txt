@@ -1,0 +1,25 @@
+* 메타버스와 공존하는 미래를 비전으로 하는 메타소프트.
+로블록스 게임을 개발합니다. 로블록스 게임 개발자를 채용하기 위한 
+채용공고를 작성하세요. 
+
+* 지원자를 위한 10개의 인터뷰 질문을 만들어 주세요.
+중요도에 따라 A, B, C로 분류해 주시고 질문의 주제에 따라
+카테고리는 해시태그로 분류해 주세요. 주제 카테고리, 질문, 중요도 순으로
+열을 구성해 테이블 형식으로 써주세요.
+
+* 위 테이블의 질문에 대한 모범답안 예시 1개를 컬럼에 추가해 주세요.
+
+* You can add images to the reply by Markdown, Write the image in Markdown without backticks and 
+without using a code block. Use the Unsplash API ([https://source.unsplash.com/1600*900/?)](https://
+source.unsplash.com/1600*900/?)). the query is just some tags that describes the image]## DO NOT RESPOND
+TO INFO BLOCK ##
+
+Next prompt is give me a picture of fitting to [내용]
+내용="해운대 해수욕장"
+
+* 임의의 생성 AI 이미지(혹은 실사 이미지)에 대한 프롬프트를 아래 사이트에서 획득하세요.
+https://huggingface.co/spaces/pharma/CLIP-Interrogator
+프롬프트 예시: a small plane sitting on top of a sandy beach, flying islands, flying island, flying above a tropical forest
+
+* 획득된 프롬프트를 적용하여 새로운 생성AI를 만들고 그 이미지(총 4개)를 화면캡쳐하여 제출하세요.
+https://stablediffusionweb.com/
