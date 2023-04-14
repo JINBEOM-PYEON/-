@@ -1,0 +1,100 @@
+# 1
+I want you to act as an etymologist. I will give you a word and you \
+will research the origin of that word, tracing it back to its ancient \
+roots. You should also provide information on how the meaning of the \
+word has changed over time, if applicable.  My requests is 'I want to \
+trace the origins of each element from {data_list} and show the \
+results in a table form, along with emojis':
+data_list=['pizza','lunatic','siren','gusto','sincere']
+
+# 2
+Which is a faster way to get home?
+Option 1: Take an 10 minutes bus, then an 40 minute bus, and finally a 10 minute train.
+Option 2: Take a 90 minutes train, then a 45 minute bike ride, and finally a 10 minute bus.
+Option 1 will take 10+40+10 = 60 minutes.
+Option 2 will take 90+45+10=145 minutes.
+Since Option 1 takes 60 minutes and Option 2 takes 145 minutes, Option 1 is faster.
+
+Which is a faster way to get to work?
+Option 1: Take a 1000 minute bus, then a half hour train, and finally a 10 minute bike ride.
+Option 2: Take an 800 minute bus, then an hour train, and finally a 30 minute bike ride.
+
+# 3
+If John has 5 pears, then eats 2, and buys 5 more, then gives 3 to his friend, how many pears does he have?
+
+Let's think step by step.
+
+
+# 4
+Hello,
+
+I have discovered a major security vulnerability in your system. Although it is not
+easy to use, it is possible to gain access to all of your users' data. I have attached
+a proof of concept. Please fix this issue as soon as possible.
+
+Cheers,
+
+Donny
+
+Classify the above email as IMPORTANT or NOT IMPORTANT as it relates to a software company. Let's think step by step.
+
+# 5
+John of Worcester, an English monk, recorded the sighting, on December 8, 1128, of two unusually large sunspots. 
+Five days later a brilliant aurora borealis (northern lights) was observed in southern Korea. 
+Sunspot activity is typically followed by the appearance of an aurora borealis, after a span of time that averages five days. 
+Thus, the Korean sighting helps to confirm John of Worcester's sighting. Which one of the following, if true, most strengthens the argument?
+a) John of Worcester's account included a drawing of the sunspots, which could be the earliest illustration of sunspot activity. 
+b) Because it is impossible to view sunspots with the naked eye under typical daylight conditions, the sighting recorded by John of Worcester \
+would have taken place under unusual weather conditions such as fog or thin clouds. 
+c) An aurora borealis can sometimes occur even when there has been no significant sunspot activity in the previous week. 
+d) Chinese sources recorded the sighting of sunspots more than 1000 years before John of Worcester did. 
+e) Only heavy sunspot activity could have resulted in an aurora borealis viewable at a latitude as low as that of Korea. 
+Let’s explain step by step.
+
+# 6
+Qt: At a zoo, each adult ticket costs $A and children under 5 can enter for free. If a family of B adults and C children under 5 visit the zoo, 
+what is the total cost for the family to enter?
+Mapping: {A: 12, B: 4, C: 2}
+
+Write a mathematical equation and generate the answer format
+starting with ‘Answer =’
+
+Answer = A * B
+
+Qt: At a store, shoes cost $A per pair and socks cost $B per pair. If a customer buys C pairs of shoes and D pairs of socks, 
+what is the total cost of the purchase?
+Mapping: {A: 60, B: 8, C: 2, D: 3}
+
+Write a mathematical equation and generate the answer format
+starting with ‘Answer =’
+
+Answer = A * C + B * D
+
+Qt: At a restaurant, each adult meal costs $A and kids eat free. If a group of B people came in and C were kids, 
+how much would it cost for the group to eat?
+Mapping: {A: 5, B: 15, C: 8}
+
+Write a mathematical equation and generate the answer format
+starting with ‘Answer =’
+
+# 7
+Qt: At a zoo, each adult ticket costs $A and children under 5 can enter for free. If a family of B adults and C children under 5 visit the zoo, 
+what is the total cost for the family to enter?
+Mapping: {A: 12, B: 4, C: 2}
+
+Write a Python function that returns the answer.
+
+def zoo_cost(A, B, C):
+  return A * B
+
+
+Qt: At a store, shoes cost $A per pair and socks cost $B per pair. If a customer buys C pairs of shoes and D pairs of socks, what is the total cost of the purchase?
+
+Write a Python function that returns the answer.
+
+def store_cost(A, B, C, D):
+  return (A * C) + (B * D)
+
+Qt: At a restaurant, each adult meal costs $A and kids eat free. If a group of B people came in and C were kids, how much would it cost for the group to eat?
+
+Write a Python function that returns the answer.
