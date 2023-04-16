@@ -1,0 +1,181 @@
+DATA PRE PROCESSING QUIZ QUESTIONS
+
+1. What are the different types of attributes?
+ A. Nominal
+ B. Ordinal
+ C. Spacial
+ D. All of the Above
+
+2. Examples of Nominal can be:
+ A. ID Numbers, eye color, zip codes
+ B. Rankings, taste of potato chips, grades, height
+ C. Calendar dates, temperatures in celsius or Fahrenheit, phone numbers
+ D. The temperature in Kelvin, length, time, counts
+
+3. Examples of Ordinal can be:
+ A. ID Numbers, eye color, zip codes
+ B. Rankings, taste of potato chips, grades, height
+ C. Calendar dates, temperatures in Celsius or Fahrenheit, phone numbers
+ D. Temperature in Kelvin, length, time, counts
+
+4. Examples of Interval can be:
+ A. ID Numbers, eye color, zip codes
+ B. Rankings, taste of potato chips, grades, height
+ C. Calendar dates, temperatures in celsius or Fahrenheit
+ D. Temperature in Kelvin, length, time, counts
+
+5. The type of a Nominal attribute depends on which of the following properties:
+ A. Distinctness & order
+ B. Distinctness, order & addition
+ C. Distinctness
+ D. All 4 properties
+
+6. The type of an Interval attribute depends on which of the following properties:
+ A. Distinctness & order
+ B. Distinctness, order & addition
+ C. Distinctness
+ D. All 4 properties
+
+7. The type of an Ordinal attribute depends on which of the following properties:
+ A. Distinctness & order
+ B. Distinctness, order & addition
+ C. Distinctness
+ D. All 4 properties
+
+8. Important Characteristics of Structured Data are:
+ A. Generality
+ B. Dimensionality
+ C. Resolution
+ D. All of the Above
+
+9. What are some examples of data quality problems:
+ A. Noise and outliers
+ B. Duplicate data
+ C. Missing values
+ D. All of the Above
+
+10. Which Method is used for encoding the categorical variables?
+ A. LabelEncoder
+ B. OneHotEncoder
+ C. CategoryEncoder
+ D. All of the Above
+
+11. Under fitting happens due to -
+ A. A fewer number of features
+ B. Data has a high variance
+ C. No use of regularization
+ D. All of the Above
+
+12. Over fitting happens due to -
+ A. Imbalance in data
+ B. Noise in data
+ C. Data has a high variance
+ D. All of the Above
+
+13. Why do we need feature transformation?
+ A. Converting non-numeric features into numeric
+ B. Resizing inputs to a fixed size
+ C. Both A and B
+ D. None
+
+14. Which of the following is true about outliers -
+ A. Data points that deviate a lot from normal observations
+ B. Can reduce the accuracy of the model
+ C. Both A and B
+ D. None
+
+15. Some of the Imputation methods are -
+ A. Imputation with mean/median
+ B. Imputing with random numbers
+ C. Imputing with one
+ D. All of the above
+
+16. Which algorithm does not require feature scaling?
+ A. Naive Bayes
+ B. Decision Tree
+ C. B. Decision Tree
+ D. None
+
+17. The purpose of feature scaling is to -
+ A. Accelerating the training time
+ B. Getting better accuracy
+ C. Both A and B
+ D. None
+
+18. In standardization, the features will be rescaled with -
+ A. Mean 0 and Variance 0
+ B. Mean 0 and Variance 1
+ C. Mean 1 and Variance 0
+ D. Mean 1 and Variance 1
+
+19. What is a Dummy Variable Trap?
+ A. Multicollinearity among the dummy variables
+ B. One variable predicts the value of other
+ C. Both A and B
+ D. None of the Above
+
+20. Which of the following(s) is/are features scaling techniques?
+ A. Standardization
+ B. Normalization
+ C. Min-Max Scaling
+ D. All of the Above
+
+21. The characteristic of a good dataset is-
+ A. Sufficiently large for getting meaningful predictions
+ B. The bias is lower
+ C. Both A and B
+ D. None
+
+22. How to handle the missing values in the dataset?
+ A. Dropping the missing rows or columns
+ B. Imputation with mean/median/mode value
+ C. Taking missing values into a new row or column
+ D. All of the above
+
+23. The correct way of pre processing the data should be-
+ A. Imputation ->feature scaling-> training
+ B. Feature scaling->imputation->training
+ C. Feature scaling->label encoding->training
+ D. None
+
+24. Which one is a feature extraction example?
+ A. Constructing a bag of words model
+ B. Imputation of missing values
+ C. Principal component analysis
+ D. All of the Above
+
+25. Which of these techniques is used for normalization in text mining?
+ A. Stemming
+ B. Stop words removal
+ C. Lemmatization
+ D. All of the above
+
+26. What stemming refers to in text mining?
+ A. Reducing a word to its root
+ B. Defining the parts of speech of a word
+ C. Converting sentences to words
+ D. None
+
+27. Which is the correct order for pre processing in Natural Language Processing?
+ A. tokenization ->stemming ->lemmatization
+ B. lemmatization ->tokenization ->stemming
+ C. stemming ->tokenization ->lemmatization
+ D. None
+
+28. Bag of Words in text pre processing is a-
+ A. Feature scaling technique
+ B. Feature extraction technique
+ C. Feature selection technique
+ D. None
+
+29. In text mining, how the words ‘lovely’ is converted to ‘love’-
+ A. By stemming
+ B. By tokenization
+ C. By lemmatization
+ D. None
+
+30. Stop words are-
+ A. Words frequently found in a document
+ B. Words not important for text mining
+ C. Words having no use in prediction
+ D. All of the Above

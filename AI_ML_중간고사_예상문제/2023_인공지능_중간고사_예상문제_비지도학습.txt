@@ -1,0 +1,181 @@
+UNSUPERVISED LEARNING QUIZ QUESTIONS
+
+1. What is the primary difference between supervised and unsupervised learning?
+ A. Supervised learning requires labeled data, while unsupervised learning does not
+ B. Supervised learning is used for classification, while unsupervised learning is used for regression
+ C. Supervised learning is deterministic, while unsupervised learning is stochastic
+ D. Supervised learning is used for online learning, while unsupervised learning is used for offline learning
+
+2. What is the purpose of dimensionality reduction in unsupervised learning?
+ A. To reduce the number of features in the dataset, making it easier to visualize and analyze
+ B. To increase the number of features in the dataset, making it more informative
+ C. To remove irrelevant features from the dataset, improving model performance
+ D. To optimize the clustering algorithm used in unsupervised learning
+
+3. Which of the following is a common application of unsupervised learning?
+ A. Image classification
+ B. Sentiment analysis
+ C. Anomaly detection
+ D. Predictive maintenance
+
+4. What is the primary goal of clustering algorithms in unsupervised learning?
+ A. To predict a continuous target variable
+ B. To classify data into known categories
+ C. To group similar data points together
+ D. To optimize a reward function
+
+5. Which of the following is an example of a dimensionality reduction technique in unsupervised learning?
+ A. Principal component analysis (PCA)
+ B. Linear discriminant analysis (LDA)
+ C. K-means clustering
+ D. Decision trees
+
+6. What is a common challenge in unsupervised learning?
+ A. Overfitting
+ B. Underfitting
+ C. Evaluating model performance
+ D. Handling missing data
+
+7. Which of the following is a density-based clustering algorithm?
+ A. K-means clustering
+ B. DBSCAN
+ C. Hierarchical clustering
+ D. Spectral clustering
+
+8. What is the primary advantage of hierarchical clustering over other clustering methods?
+ A. It can handle missing data
+ B. It produces a dendrogram that shows the nested structure of the clusters
+ C. It can automatically determine the optimal number of clusters
+ D. It is more efficient in terms of computational complexity
+
+9. Which of the following unsupervised learning algorithms is based on the idea of transforming the data into a lower-dimensional space while preserving the pairwise distances between data points?
+ A. Principal component analysis (PCA)
+ B. t-distributed stochastic neighbor embedding (t-SNE)
+ C. K-means clustering
+ D. DBSCAN
+
+10. What is the primary goal of autoencoders in unsupervised learning?
+ A. To learn a compressed representation of the input data
+ B. To classify input data into known categories
+ C. To predict a continuous target variable
+ D. To optimize a reward function
+
+11. Which of the following is an example of a clustering evaluation metric?
+ A. Accuracy
+ B. F1-score
+ C. Silhouette score
+ D. Mean squared error
+
+12. In unsupervised learning, what is the purpose of using the elbow method?
+ A. To determine the optimal number of clusters
+ B. To select the optimal features for clustering
+ C. To choose the best clustering algorithm
+ D. To evaluate the performance of a clustering algorithm
+
+13. What is the primary difference between top-down and bottom-up hierarchical clustering?
+ A. Top-down clustering starts with a single cluster and iteratively splits it, while bottom-up clustering starts with individual data points and iteratively merges them
+ B. Top-down clustering is deterministic, while bottom-up clustering is stochastic
+ C. Top-down clustering is more computationally efficient, while bottom-up clustering is more accurate
+ D. Top-down clustering is used for online learning, while bottom-up clustering is used for offline learning
+
+14. Which of the following unsupervised learning algorithms is suitable for finding non-linear structures in the data?
+ A. Principal component analysis (PCA)
+ B. K-means clustering
+ C. Isomap
+ D. Spectral clustering
+
+15. What is a common application of autoencoders in unsupervised learning?
+ A. Image segmentation
+ B. Image compression
+ C. Image classification
+ D. Image enhancement
+
+16. Which of the following unsupervised learning algorithms can be used for both clustering and dimensionality reduction?
+ A. K-means clustering
+ B. DBSCAN
+ C. Spectral clustering
+ D. t-distributed stochastic neighbor embedding (t-SNE)
+
+17. What is the primary advantage of using Gaussian mixture models (GMMs) for clustering over other clustering algorithms?
+ A. They can handle missing data
+ B. They can model clusters with different shapes, sizes, and orientations
+ C. They are more computationally efficient
+ D. They can automatically determine the optimal number of clusters
+
+18. What is the primary goal of outlier detection algorithms in unsupervised learning?
+ A. To classify data into known categories
+ B. To group similar data points together
+ C. To identify unusual or unexpected data points
+ D. To optimize a reward function
+
+19. Which of the following is a common application of dimensionality reduction techniques in unsupervised learning?
+ A. Image recognition
+ B. Data visualization
+ C. Sentiment analysis
+ D. Text summarization
+
+20. In the context of unsupervised learning, what is a "topic model"?
+ A. A model that groups similar words together based on their co-occurrence patterns in a collection of documents
+ B. A model that classifies documents into predefined categories based on their content
+ C. A model that generates new documents based on a given topic
+ D. A model that extracts key phrases from a collection of documents
+
+21. Which of the following unsupervised learning algorithms is most suitable for finding clusters with arbitrary shapes?
+ A. K-means clustering
+ B. DBSCAN
+ C. Gaussian mixture models (GMMs)
+ D. Hierarchical clustering
+
+22. Which of the following is an example of a manifold learning technique in unsupervised learning?
+ A. Principal component analysis (PCA)
+ B. t-distributed stochastic neighbor embedding (t-SNE)
+ C. K-means clustering
+ D. DBSCAN
+
+23. What is a common challenge when applying clustering algorithms to high-dimensional data?
+ A. Overfitting
+ B. The curse of dimensionality
+ C. Evaluating model performance
+ D. Handling missing data
+
+24. What is the primary goal of feature selection in unsupervised learning?
+ A. To reduce the number of features in the dataset, making it easier to visualize and analyze
+ B. To increase the number of features in the dataset, making it more informative
+ C. To remove irrelevant features from the dataset, improving model performance
+ D. To optimize the clustering algorithm used in unsupervised learning
+
+25. Which of the following is a similarity measure commonly used in unsupervised learning?
+ A. Euclidean distance
+ B. Pearson correlation coefficient
+ C. Cosine similarity
+ D. All of the above
+
+26. Which of the following clustering algorithms is most sensitive to the initial placement of cluster centroids?
+ A. K-means clustering
+ B. DBSCAN
+ C. Gaussian mixture models (GMMs)
+ D. Hierarchical clustering
+
+27. In the context of unsupervised learning, what is "semi-supervised learning"?
+ A. A learning approach that combines both labeled and unlabeled data
+ B. A learning approach that requires only a small amount of labeled data
+ C. A learning approach that uses a combination of supervised and unsupervised learning algorithms
+ D. A learning approach that involves active learning and human-in-the-loop feedback
+
+28. What is a common application of clustering algorithms in unsupervised learning?
+ A. Customer segmentation
+ B. Image recognition
+ C. Text classification
+ D. Speech recognition
+
+29. What is the primary goal of unsupervised learning?
+ A. To classify data into known categories
+ B. To find hidden patterns or structures in data
+ C. To optimize a reward function
+ D. To predict future data points based on past observations
+
+30. Which of the following is an example of an unsupervised learning algorithm?
+ A. Linear regression
+ B. Logistic regression
+ C. K-means clustering
+ D. Support vector machines

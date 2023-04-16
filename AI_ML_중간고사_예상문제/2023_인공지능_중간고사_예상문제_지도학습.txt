@@ -1,0 +1,181 @@
+SUPERVISED LEARNING QUIZ QUESTIONS
+
+1. Which of the following evaluation metrics is commonly used for classification problems?
+ A. Mean squared error
+ B. Precision, recall, and F1-score
+ C. R-squared
+ D. Mean absolute error
+
+2. Which of the following evaluation metrics is commonly used for regression problems?
+ A. Mean squared error
+ B. Precision, recall, and F1-score
+ C. R-squared
+ D. Mean absolute error
+
+3. In the context of supervised learning, what is the purpose of a grid search?
+ A. To search for the best combination of hyperparameters for a given model
+ B. To split the data into training and testing sets
+ C. To select the best features for a model
+ D. To combine multiple models into an ensemble
+
+4. Which of the following is a common method for feature scaling?
+ A. Min-max scaling
+ B. Standardization (z-score)
+ C. Both A and B
+ D. None of the above
+
+5. What is the purpose of one-hot encoding in supervised learning?
+ A. To convert categorical variables into a binary format that can be used by machine learning algorithms
+ B. To reduce the dimensionality of the input data
+ C. To prevent overfitting
+ D. To optimize the model's hyperparameters
+
+6. What is the role of a bias term in linear models, such as linear regression or logistic regression?
+ A. To control the model's complexity
+ B. To shift the decision boundary or regression line
+ C. To scale the input features
+ D. To select the best model architecture
+
+7. Which of the following is an example of an ensemble method?
+ A. Random forests
+ B. Support vector machines
+ C. Linear regression
+ D. K-means clustering
+
+8. What is the purpose of using a confusion matrix in classification problems?
+ A. To measure the performance of a model by comparing true and predicted class labels
+ B. To identify the most important input features
+ C. To optimize the model's hyperparameters
+ D. To reduce the complexity of the model
+
+9. What is the purpose of using feature scaling in supervised learning?
+ A. To ensure that all input features have a similar scale, so that the model can learn more effectively
+ B. To reduce the dimensionality of the input data
+ C. To prevent overfitting
+ D. To optimize the model's hyperparameters
+
+10. Which of the following is an example of a parametric supervised learning algorithm?
+ A.Decision trees
+ B. Support vector machines
+ C. Linear regression
+ D. K-nearest neighbors
+
+11. Which of the following is an example of a non-parametric supervised learning algorithm?
+ A. Decision trees
+ B. Support vector machines
+ C. Linear regression
+ D. K-nearest neighbors
+
+12. In the context of supervised learning, what is an ensemble method?
+ A. A technique that combines multiple models to make a single prediction
+ B. A method for regularizing models to prevent overfitting
+ C. A technique for splitting data into training and testing sets
+ D. A method for optimizing hyperparameters
+
+13. Which supervised learning algorithm is based on the concept of entropy and information gain?
+ A. Decision trees
+ B. Support vector machines
+ C. K-nearest neighbors
+ D. Neural networks
+
+14. Which supervised learning algorithm is based on the idea of maximizing the margin between classes?
+ A. Decision trees
+ B. Support vector machines
+ C. K-nearest neighbors
+ D. Neural networks
+
+15. What is the main difference between a parametric and a non-parametric supervised learning algorithm?
+ A. The number of input features
+ B. The use of labeled data
+ C. The assumption of a fixed functional form for the underlying relationship between input and output variables
+ D. The use of regularization techniques
+
+16. Which of the following is a common loss function for classification problems?
+ A. Mean squared error
+ B. Cross-entropy loss
+ C. Huber loss
+ D. Hinge loss
+
+17. Which of the following is a common loss function for regression problems?
+ A. Mean squared error
+ B. Cross-entropy loss
+ C. Huber loss
+ D. Hinge loss
+
+18. What is the purpose of regularization in supervised learning?
+ A. To reduce the complexity of the model and prevent overfitting
+ B. To increase the complexity of the model and improve performance
+ C. To optimize the model's hyperparameters
+ D. To identify the most important input features
+
+19. Which of the following is an example of regularization?
+ A. Dropout
+ B. L1 regularization
+ C. L2 regularization
+ D. Both B and C
+
+20. What is the role of a validation set in supervised learning?
+ A. To train the model
+ B. To test the model's performance on new, unseen data
+ C. To tune the model's hyperparameters and select the best model
+ D. To preprocess the input data
+
+21. What is underfitting in supervised learning?
+ A. A model that is too complex and has learned the noise in the training data
+ B. A model that performs well on new, unseen data
+ C. A model that is too simple and does not capture the underlying patterns in the data
+ D. A model that performs well on both training and testing data
+
+22. Which of the following is a common method for splitting data into training and testing sets?
+ A. k-means clustering
+ B. Principal Component Analysis (PCA)
+ C. k-fold cross-validation
+ D. Random sampling
+
+23. Which of the following is an example of a supervised learning algorithm?
+ A. K-means clustering
+ B. Apriori
+ C. Decision tree
+ D. t-SNE
+
+24. What is the purpose of using a loss function in supervised learning?
+ A. To identify input features
+ B. To measure the error between predicted and actual outputs
+ C. To optimize hyperparameters
+ D. To find the best model architecture
+
+25. What is supervised learning?
+ A. A type of unsupervised learning
+ B. A type of deep learning
+ C. A type of machine learning where the model is trained on labeled data
+ D. A type of reinforcement learning
+
+26. Which of the following is a supervised learning task?
+ A. Clustering
+ B. Dimensionality reduction
+ C. Regression
+ D. Anomaly detection
+
+27. What are the two main types of supervised learning problems?
+ A. Clustering and regression
+ B. Regression and classification
+ C. Dimensionality reduction and clustering
+ D. Anomaly detection and dimensionality reduction
+
+28. What is the main goal of supervised learning?
+ A. To learn the best possible mapping from inputs to outputs
+ B. To find hidden patterns in the data
+ C. To optimize the rewards in a given environment
+ D. To compress the data into a lower-dimensional space
+
+29. In supervised learning, what is a label?
+ A. A variable used to split the data
+ B. A type of algorithm used for learning
+ C. The target or output variable associated with an instance
+ D. An error metric used to evaluate model performance
+
+30. What is overfitting in supervised learning?
+ A. A model that performs poorly on training data
+ B. A model that performs poorly on new, unseen data
+ C. A model that performs well on both training and testing data
+ D. A model that is too complex and has learned the noise in the training data
