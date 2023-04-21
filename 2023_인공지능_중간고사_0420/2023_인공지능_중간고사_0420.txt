@@ -1,0 +1,119 @@
+1. What is the primary goal of clustering algorithms in unsupervised learning?
+ A. To predict a continuous target variable
+ B. To classify data into known categories
+ C. To group similar data points together
+ D. To optimize a reward function
+
+2. What is a common application of autoencoders in unsupervised learning?
+ A. Image segmentation
+ B. Image compression
+ C. Image classification
+ D. Image enhancement
+
+3. What is the primary goal of outlier detection algorithms in unsupervised learning?
+ A. To classify data into known categories
+ B. To group similar data points together
+ C. To identify unusual or unexpected data points
+ D. To optimize a reward function
+
+4. In the context of unsupervised learning, what is a "topic model"?
+ A. A model that groups similar words together based on their co-occurrence patterns in a collection of documents
+ B. A model that classifies documents into predefined categories based on their content
+ C. A model that generates new documents based on a given topic
+ D. A model that extracts key phrases from a collection of documents
+
+5. What is the primary goal of feature selection in unsupervised learning?
+ A. To reduce the number of features in the dataset, making it easier to visualize and analyze
+ B. To increase the number of features in the dataset, making it more informative
+ C. To remove irrelevant features from the dataset, improving model performance
+ D. To optimize the clustering algorithm used in unsupervised learning
+
+6. What is a common application of clustering algorithms in unsupervised learning?
+ A. Customer segmentation
+ B. Image recognition
+ C. Text classification
+ D. Speech recognition
+
+7. Which of the following evaluation metrics is commonly used for classification problems?
+ A. Mean squared error
+ B. Precision, recall, and F1-score
+ C. R-squared
+ D. Mean absolute error
+
+8. What is the purpose of one-hot encoding in supervised learning?
+ A. To convert categorical variables into a binary format that can be used by machine learning algorithms
+ B. To reduce the dimensionality of the input data
+ C. To prevent overfitting
+ D. To optimize the model's hyperparameters
+
+9. What is the purpose of using a confusion matrix in classification problems?
+ A. To measure the performance of a model by comparing true and predicted class labels
+ B. To identify the most important input features
+ C. To optimize the model's hyperparameters
+ D. To reduce the complexity of the model
+
+10. What is the purpose of using feature scaling in supervised learning?
+ A. To ensure that all input features have a similar scale, so that the model can learn more effectively
+ B. To reduce the dimensionality of the input data
+ C. To prevent overfitting
+ D. To optimize the model's hyperparameters
+
+11. In the context of supervised learning, what is an ensemble method?
+ A. A technique that combines multiple models to make a single prediction
+ B. A method for regularizing models to prevent overfitting
+ C. A technique for splitting data into training and testing sets
+ D. A method for optimizing hyperparameters
+
+12. Which supervised learning algorithm is based on the concept of entropy and information gain?
+ A. Decision trees
+ B. Support vector machines
+ C. K-nearest neighbors
+ D. Neural networks
+
+13. Which of the following is a common method for splitting data into training and testing sets?
+ A. k-means clustering
+ B. Principal Component Analysis (PCA)
+ C. k-fold cross-validation
+ D. Random sampling
+
+14. What is the main goal of supervised learning?
+ A. To learn the best possible mapping from inputs to outputs
+ B. To find hidden patterns in the data
+ C. To optimize the rewards in a given environment
+ D. To compress the data into a lower-dimensional space
+
+15. Examples of Nominal can be:
+ A. ID Numbers, eye color, zip codes
+ B. Rankings, taste of potato chips, grades, height
+ C. Calendar dates, temperatures in celsius or Fahrenheit, phone numbers
+ D. The temperature in Kelvin, length, time, counts
+
+16. Which is the correct order for pre processing in Natural Language Processing?
+ A. tokenization ->stemming ->lemmatization
+ B. lemmatization ->tokenization ->stemming
+ C. stemming ->tokenization ->lemmatization
+ D. None
+
+17. What is tokenization?
+ A. Breaking sentences into words
+ B. Creating a set of vocabularies
+ C. Removing stopwords
+ D. All of the above
+
+18. A bag of words model uses-
+ A. A vocabulary of known words
+ B. A measure of the presence of known words
+ C. Both A and B
+ D. None
+
+19. Why we use named entity recognition in NLP?
+ A. Classify entities into predefined labels
+ B. Creating a set of vocabularies
+ C. Breaking sentences into words
+ D. None
+
+20. Suppose you got a training accuracy of 90% and a test accuracy of 50%. What happened with your model-
+ A. The model was over fitted with the training data
+ B. The model was under fitted with the training data
+ C. The model is absolutely fine
+ D. None
