@@ -1,0 +1,252 @@
+#
+(* 인공지능 sage용 *)
+"다음의 문장을 옵션의 변화에 따라 모두 실행하세요: 모닝 커피의 그윽한 향이라는 내용으로 200자 분량의 글을 작성하세요.
+[
+ temperature:tmp; tone:adj; frequency_penalty:val 
+ for tmp in [0.1,0.9];
+ for adj in ['humorous','cold','tentative'];
+ for val in [0.2, 0.8]
+]"
+
+
+#
+"topic이 data science일 때, 다음 리스트의 각각의 원소인 프롬프트를 실행하시오:
+ [Explain [topic],
+  Explain [topic] clearly,
+  Explain [topic] uniquely,
+  Explain [topic] in detail,
+  Explain [topic] with examples,
+  Explain [topic] in detail with examples, 
+  Explain [topic] like I am 5, 
+  Explain [topic] to 5th grader, 
+  Explain [topic] like steve jobs, 
+  Explain [topic] to high school student]"
+
+#
+Explain quantum physics with an analogy, using Korean only.
+
+
+#
+"다음의 막걸리 리스트에서 도수 기준의 정보만 추출하고 표로 나타내줘:
+[12도 찹쌀막걸리 900ml,막걸리 6도 750ml,손막걸리 6.5도 935ml]"
+
+#
+ 다음의 막걸리 리스트에서 용량 기준의 정보만 추출하고 표로 나타내줘:
+[12도 찹쌀막걸리 900ml,막걸리 6도 750ml,손막걸리 6.5도 935ml]"
+
+#
+ "다음의 막걸리 리스트에서 도수 기준과 용량 기준의 정보를 각각 추출하고 표로 나타내줘:
+[12도 찹쌀막걸리 900ml,막걸리 6도 750ml,손막걸리 6.5도 935ml]"
+
+#
+"다음의 화폐 리스트를 ISO currency 포맷으로 변환하는 표를 작성하시오.
+단, 화폐단위가 숫자 앞에 나와야 함: 
+[1042 KRW, $403, 88元, 50 yen]"
+
+
+#
+"다음의 문장 리스트에서 근무 기간을 추출하여 표로 작성하시오.
+현재 년도는 2023년이고, 기간은 숫자로만 나타내고 숫자를 특정 못하면 NA라고 표기할 것:
+['저는 Amazon에서 근무한 엔지니어입니다.',
+'Google SW 엔지니어로 5년 활동했습니다.',
+'2017년부터 2022년까지 근무했고, 휴직 중에 있습니다.',
+'삼성에서 4년 근무한 시니어 개발자입니다.',
+'2020년부터 현재까지 마케터로 근무하고 있습니다.']"
+
+
+#
+"다음의 문장 리스트에서 문장 대비 기업명을 추출하여 표로 작성하시오.
+단, 한글 기업명은 영어 기업명으로 바꾸시오:
+['저는 Amazon에서 근무한 엔지니어입니다.',
+'Google SW 엔지니어로 5년 활동했습니다.',
+'넥슨에서 게임개발자로 커리어를 시작했습니다',
+'삼성에서 4년 근무한 시니어 개발자입니다.',
+'2020년부터 현재까지 엔씨소프트에서 마케터로 근무하고 있습니다.']"
+
+
+#
+"'삼성전자'의 마케팅팀 신입 사원 면접을 보러 가야 하는데, 모의 면접을 함께 해 주면 좋겠어. 나는 면접자고, 너는 
+면접관이야. 면접을 위해서 나에 대한 간단한 정보를 제공해 줄게. 나는 경영대학을 졸업하고, 학교에서는 재무와 마케팅 수업을 
+제일 많이 들었어. 삼성 소프트웨어 아카데미에서 1년 정도 프로그래밍 교육을 받아서 기본적인 프로그래밍 지식과 기술이 있어.
+자기 소개서에서 가장 강조한 부분은 신용 평가사에서 근무하며 실제 서비스와 마케팅 케이스들을 직접 풀어 갈 수 있었다는 것, 
+블록체인과 암호화폐 언론사에서 근무하며 새로운 기술의 첨단을 경험했다는 부분이야.
+한 번에 하나의 질문만 제시하고, 질문에 내가 답변하면 (그 답변이 10점 만점에 몇 점인지 알려주고, 모범답안도 알려줘) 
+그리고 나서 다음 질문을 던져 줘. 압박 면접 질문을 던져 주면 더 좋을 것 같아. 내가 면접을 끝내겠다고 말하는 순간 
+이 모의 면접을 끝내자."
+
+
+#
+"Ask me a question about the film 'The Matrix'. Do nothing until I type something. If I type \
+'hint', give me a hint. I am allowed to ask for 3 hints for each question. If I answer incorrectly, 
+tell me 'wrong' and output the correct answer. If my answer is correct, answer 'correct'. 
+Then move onto the next question and repeat this process until you reach a maximum of 10 questions."
+
+#
+"Do you know what a use case diagram is?"
+
+
+#
+"Let me provide you with a {scenario}, and i want you to anwer me with \
+'i understand' if you have read the {scenario}:
+
+scenario='A website named 'Shoez online' is an online retailer that sells a \
+variety of shoes to customers. The website allows customers to browse \
+and purchase shoes online. Customers can search for shoes by \
+category, brand, size, and color. The website also offers a feature \
+where customers can view the shoes on a virtual model to see how they \
+would look. To use the website, customers must first create an \
+account by providing their personal information and payment details. \
+Once logged in, they can add items to their cart, proceed to \
+checkout, and make payment. They can also track the status of their \
+orders and view their order history. In addition to the customers, \
+the website has an admin who manages the inventory, adds new \
+products, and fulfills orders. The admin can also view sales data and \
+generate reports on sales and customer behavior. There are also \
+external systems that the website interacts with, such as payment \
+gateways and shipping providers. The website must be able to \
+communicate with these systems to process payments and fulfill orders.'
+"
+
+#
+"Please create a use case diagram in PLANTUML for the above scenario."
+
+[주: PlantUML 초반 부에 다음 내용 삽입하기-> 
+@startuml
+left to right direction ] 
+
+
+#
+"please add the functionality of the admin to manage users"
+
+
+(* 마인드맵 그리기 *)
+(* https://termboard.com/app#/ *)
+
+car="
+A car or automobile is a motor vehicle with wheels. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people, not cargo.[1][2]
+
+French inventor Nicolas-Joseph Cugnot built the first steam-powered road vehicle in 1769, while Swiss inventor François Isaac de Rivaz designed and constructed the first internal combustion powered automobile in 1808. The modern car—a practical, marketable automobile for everyday use—was invented in 1886, when German inventor Carl Benz patented his Benz Patent-Motorwagen. Commercial cars became widely available during the 20th century. One of the first cars affordable by the masses was the 1908 Model T, an American car manufactured by the Ford Motor Company. Cars were rapidly adopted in the US, where they replaced horse-drawn carriages.[3] In Europe and other parts of the world, demand for automobiles did not increase until after World War II.[4] The car is considered an essential part of the developed economy.
+
+Cars have controls for driving, parking, passenger comfort, and a variety of lights. Over the decades, additional features and controls have been added to vehicles, making them progressively more complex. These include rear-reversing cameras, air conditioning, navigation systems, and in-car entertainment. Most cars in use in the early 2020s are propelled by an internal combustion engine, fuelled by the combustion of fossil fuels. Electric cars, which were invented early in the history of the car, became commercially available in the 2000s and are predicted to cost less to buy than gasoline cars before 2025.[5][6] The transition from fossil fuels to electric cars features prominently in most climate change mitigation scenarios,[7] such as Project Drawdown's 100 actionable solutions for climate change.[8]
+
+There are costs and benefits to car use. The costs to the individual include acquiring the vehicle, interest payments (if the car is financed), repairs and maintenance, fuel, depreciation, driving time, parking fees, taxes, and insurance.[9] The costs to society include maintaining roads, land use, road congestion, air pollution, noise pollution, public health, and disposing of the vehicle at the end of its life. Traffic collisions are the largest cause of injury-related deaths worldwide.[10] Personal benefits include on-demand transportation, mobility, independence, and convenience.[11] Societal benefits include economic benefits, such as job and wealth creation from the automotive industry, transportation provision, societal well-being from leisure and travel opportunities, and revenue generation from taxes. People's ability to move flexibly from place to place has far-reaching implications for the nature of societies.[12]
+
+There are around one billion cars in use worldwide. Car usage is increasing rapidly, especially in China, India, and other newly industrialized countries.[13]"
+
+
+(* Create a Graph from text *)
+
+
+[기타 프롬프트]
+
+
+#
+write an article about electric vehicles. (bad)
+
+
+#
+write a 1000 word informative article about the benefits of electric vehicles, focussing on environmental impact,
+cost savings, and technological advancements. Include introduction, three main sections for each benefit, and 
+conclusion, summarizing the key points.
+
+
+#  
+Tell me about a famous scientist. (bad)
+
+
+#
+Provide a brieft overview of Albert Einstein's life, including his most significant contributions to physics.
+Write it in an easy to understand style for 10-year-olds.
+
+
+#
+I am a teacher, and I would like to explain Albert Einstein, and why was important to my class of six-year-olds.
+Can you please rewrite the above with that in mind.
+
+
+#
+Write an article about social media. (bad)
+
+
+#
+Write a 500 word opinion article in a narrative style, discussing the impact of social media on mental health
+among teenagers. Also add some humor to the article.
+
+
+#
+Tell me about the history of the Internet and also how to make pizza dough. (잘못된 프롬프트; 주제가 혼합됨)
+
+
+#
+Summarize the book, breaking the habit of being yourself by Joe Dispenza, and explain its importance.
+
+
+#
+Provide a brief summary of the main ideas in breaking the habit of being yoursel by Joe Dispenza, and discuss 
+its significance for entrepreneurs, looking to achieve their dreams.
+
+
+# 
+I'm a content creator on YouTube. I talk about artificial intelligence and productivity. Recommend 5 Twitter accounts I should 
+be following.
+
+#
+Create a 6-month tenancy agreement for a 2 bedroom apartment in Made Up Street, near Liverpool town center.
+The apartment is on the second floor and has 1 living room, 2 bedrooms, a small kitchen and a small bathroom.
+There is no lift (elevator). There is also no car park, and no communal garden. There are np pets allowed.
+The tenancy is £900 per month with a deposite of £900.
+
+#
+List the cons of living in this apartment.
+
+#
+Play devil's advocate and explain why this is a bad agreement.
+
+#
+"Draft a letter asking to renegotiate the terms of the agreement \
+before I agree to sign it. The aim of the letter is to reduce the \
+monthly rent. Use the cons and the main reason for wanting a reduced \
+rate. And use anything else you can come up with to support this \
+request. Things that are important to me include: a clean space, a \
+quiet neighbourhood, and a garden. Mention that there are plenty of \
+rental properties in the area, but I am limited by my budget."
+
+#
+"https://www.deankoontz.com/about/about-dean/ 
+Create a demographic for this person. Output in table format. Include goals and fears"
+
+
+#
+Give me a number of questions to ask https://www.deankoontz.com/about/about-dean/ 
+
+#
+"Create an email to Mr Koontz asking if he would be so kind as to \
+provide answers to those questions for a blog post to feature on my \
+blog. Mention that I am aware his time is precious and how grateful I \
+would be if he could share his wisdom with my readers. Add the \
+previous questions to the email and a big thank you in advance."
+
+#
+Suggest 10 semantically-related topics to productivity.
+
+
+#
+Suggest 10 articles I could write for each topic.
+
+
+#
+"Using the article ideas, create a 30 day content calendar for my \
+productivity blog. Include 20 blog posts, 2 from each category, as \
+well as 20 short form videos, 4 long form videos and 2 email \
+newsletters."
+
+#
+"Generate an article about waking up at 4am in terms of productivity. \
+Include little-known facts and recent breakthroughs or insights in \
+this space, backed by science. Include references to studies."
+
+#
+Write it in the voice of Gary Vee.
+
+#
+Suggest a list of prompts to help me improve this content.
