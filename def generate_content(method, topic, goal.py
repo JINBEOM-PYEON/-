@@ -1,0 +1,25 @@
+def generate_content(method, topic, goal):
+ template = f"""
+METHOD = {method}
+TOPIC = {topic}
+GOAL = {goal}
+[METHOD] 콘텐츠 프레임워크를 사용하여 [TOPIC]에 대한 블로그 게시글을 작성하는데 도움이 필요합니다.
+제 목표는 [GOAL]입니다. 시선을 끄는 강력한 헤드라인을 만들고, [GOAL]에 관한 유용한 정보를 제공하고, 평소에도 [GOAL]에 대한 욕구를 불러 일으켜 행동으로 이어지도록 합니다. 구체적인 예시나 팁을 알려주세요.
+"""
+ return template
+methods = ["AIDA(Attention,Interest,Desire,Action)",
+ "PAS(Problem,Agitate,Solve)", "STAR(Situation,Task,Action,Result)",
+ "Inverted Pyramid", "monomyth",
+ "SOAP(Situation,Obstacle,Action,Result)",
+ "SPIN(Situation,Problem,Implication,Need-payoff)",
+ "SNAS(Situation,Need,Agitate,Solve)",
+ "WWAD(What's Wrong and What's Desired)",
+ "WOCAS(What our customers are saying about us)",
+ "SCORE(Situation,Challenge,Obstacle,Resolution,End Result)"
+]
+
+topic = "Metaverse"
+goal = "Metaverse의 가능성을 사용자에게 알리고, 더 나은 정보를 알려주는 것"
+
+for method in methods:
+ print(generate_content(method, topic, goal))
